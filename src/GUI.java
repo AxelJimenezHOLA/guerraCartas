@@ -2,15 +2,19 @@ import javax.swing.*;
 
 public class GUI extends JFrame {
     private JPanel panelPrincipal;
-    private JButton avanzarTurnoButton;
-    private JPanel panelCartasJ1;
-    private JLabel labelGuerra;
-    private JPanel panelAcciones;
+
     private JPanel panelInfo;
-    private JPanel panelCartasJ2;
     private JLabel labelNombreJ1;
     private JLabel labelNombreJ2;
+    private JLabel labelGuerra;
+
+    private JPanel panelCartasJugadas;
+    private JPanel panelCartasJ1;
+    private JPanel panelCartasJ2;
+
+    private JPanel panelAcciones;
     private JLabel labelTurnos;
+    private JButton avanzarTurnoButton;
 
     private final ReglasGuerra reglasGuerra;
 
